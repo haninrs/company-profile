@@ -13,7 +13,7 @@ export const TeamCard: React.FC<ITeam> = ({ firstName, lastName, img, phone }: I
     <div className="w-full max-w-sm bg-gradient-to-b from-teal-950  to-transparent border border-slate-50 rounded-lg shadow">
       <div className="flex flex-col items-center justify-center py-10">
         <Image className="w-24 h-24 mb-3 rounded-full shadow-lg border border-slate-50" width={70} height={70} src={`${img}`} alt={`${firstName}`} />
-        <h5 className="mb-1 text-xl font-medium text-slate-50 ">
+        <h5 className="pb-1 text-xl font-medium text-slate-50 ">
           {firstName} {lastName}
         </h5>
         <span className="text-sm text-slate-400 ">{phone}</span>

@@ -16,7 +16,7 @@ export default function TeamSection() {
   return (
     <div className="bg-gradient-to-t from-slate-900 to text-teal-950 pt-7">
       <div className="text-2xl font-bold text-center text-slate-50 py-14 px-10">OUR TEAM</div>
-      <div className="flex flex-col sm:flex-row flex-wrap py-3 gap-3 px-14 justify-center items-center">
+      <div className="flex flex-col sm:flex-row flex-wrap pt-3 gap-3 px-14 justify-center items-center">
         {data.map((user: any, idx) => (
           <TeamCard key={idx} firstName={user.name.first} lastName={user.name.last} img={user.picture.thumbnail} phone={user.phone} />
         ))}
