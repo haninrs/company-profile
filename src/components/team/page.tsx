@@ -17,7 +17,7 @@ export const TeamCard: React.FC<ITeam> = ({ firstName, lastName, img, phone }: I
           {firstName} {lastName}
         </h5>
         <span className="text-sm text-slate-400 ">{phone}</span>
-        <span className="text-xs text-slate-200 text-balance text-center p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, eius! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, voluptas.</span>
+        <span className="text-xs text-slate-200 text-balance text-center pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, eius! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, voluptas.</span>
       </div>
     </div>
   );
