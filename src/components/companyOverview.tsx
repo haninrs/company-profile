@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
+import React, { Suspense } from "react";
 import VidioMd from "./vidioMd";
 import ImageComp from "./img";
 
@@ -17,7 +17,9 @@ export default function CompanyOverview() {
 
       <div className="flex flex-col md:justify-between md:flex-row  py-10 px-6">
         <div className="mx-auto mb-6">
-          <VidioMd />
+          <Suspense fallback={<p>Loading video...</p>}>
+            <VidioMd />
+          </Suspense>
         </div>
 
         <div className="text-center text-balance md:text-end md:self-center px-7">
