@@ -15,10 +15,10 @@ export default function FooterPage() {
         <nav>
           <div className="grid grid-flow-col gap-4 ">
             <Link href="https://twitter.com/elonmusk" target="_blank">
-              <FaTwitter className="fill-slate-50 w-6 h-6"/>
+              <FaTwitter className="fill-slate-50 w-6 h-6" />
             </Link>
             <Link href="https://www.youtube.com/@AdiHidayatOfficial" target="_blank">
-              <FaYoutube className="fill-slate-50 w-6 h-6"/>
+              <FaYoutube className="fill-slate-50 w-6 h-6" />
             </Link>
             <Link href="https://www.facebook.com/" target="_blank">
               <FaFacebook className="fill-slate-50 w-6 h-6" />
@@ -26,7 +26,7 @@ export default function FooterPage() {
           </div>
         </nav>
         <aside>
-          <p>Copyright © 2024 - All right reserved by GAMESTART Industries Ltd</p>
+          <p className="text-slate-50">Copyright © 2024 - All right reserved by GAMESTART Industries Ltd</p>
         </aside>
       </footer>
     </div>
