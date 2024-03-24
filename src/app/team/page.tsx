@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function TeamPage() {
   return (
-    <div className="bg-gradient-to-t from-slate-900 to-slate-900 via-teal-950 ">
+    <div className="bg-slate-900">
       <TeamSection />
       <FooterPage />
     </div>
