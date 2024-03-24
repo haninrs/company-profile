@@ -15,7 +15,7 @@ export default function TestiSec() {
             </p>
           </blockquote>
           <figcaption className="flex items-center justify-center ">
-            <Image className="rounded-full w-9 h-9" width={70} height={80} src="/testi1.jpg" alt="profile picture" />
+            <Image priority className="rounded-full w-9 h-9" width={50} height={50} src="/testi1.jpg" alt="profile picture" />
             <div className="space-y-0.5 font-medium text-gray-950 text-left rtl:text-right ms-3">
               <div>Alexa Fitri</div>
               <div className="text-sm text-gray-500 ">General Manager at Tukupidia</div>
@@ -30,7 +30,7 @@ export default function TestiSec() {
             </p>
           </blockquote>
           <figcaption className="flex items-center justify-center ">
-            <Image width={70} height={80} className="rounded-full w-9 h-9" src="/testi2.jpg" alt="profile picture" />
+            <Image priority width={70} height={80} className="rounded-full w-9 h-9" src="/testi2.jpg" alt="profile picture" />
             <div className="space-y-0.5 font-medium text-slate-950 text-left rtl:text-right ms-3">
               <div>Surya Sitorus</div>
               <div className="text-sm text-gray-500 ">Head Social Departement at BookLapak</div>
@@ -45,7 +45,7 @@ export default function TestiSec() {
             </p>
           </blockquote>
           <figcaption className="flex items-center justify-center ">
-            <Image width={70} height={80} className="rounded-full w-9 h-9" src="/testi3.jpg" alt="profile picture" />
+            <Image priority width={70} height={80} className="rounded-full w-9 h-9" src="/testi3.jpg" alt="profile picture" />
             <div className="space-y-0.5 font-medium text-slate-950 text-left rtl:text-right ms-3">
               <div>Jonathan Wicaksono</div>
               <div className="text-sm text-gray-500 ">CEO at Shupee</div>
@@ -60,7 +60,7 @@ export default function TestiSec() {
             </p>
           </blockquote>
           <figcaption className="flex items-center justify-center ">
-            <Image width={70} height={80} className="rounded-full w-9 h-9" src="/testi4.jpg" alt="profile picture" />
+            <Image priority width={70} height={80} className="rounded-full w-9 h-9" src="/testi4.jpg" alt="profile picture" />
             <div className="space-y-0.5 font-medium text-slate-950 text-left rtl:text-right ms-3">
               <div>Adit McFall</div>
               <div className="text-sm text-gray-500 ">Admin at Bleebli</div>

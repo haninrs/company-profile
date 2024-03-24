@@ -3,9 +3,6 @@ import { FaHandshake } from "react-icons/fa";
 import { GiBodyBalance, GiKnockedOutStars } from "react-icons/gi";
 import { PiArrowFatLinesUp } from "react-icons/pi";
 import { RiSunLine } from "react-icons/ri";
-// interface CultureSecProps {
-//   className?: string;
-// }
 
 export default function CultureSec({className} : { className?: string }) {
   return (

@@ -14,7 +14,7 @@ export default function TimelineSec() {
             <div className="timeline-start  md:text-end mb-10 pb-10 md:pb-0 ">
               <time className="font-mono italic">2015</time>
               <div className="text-lg font-black">First Hit Game</div>
-              <span className="text-pretty align-text-top hidden md:inline">
+              <span className=" align-text-top hidden md:inline">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque debitis a quidem aperiam sapiente veniam reiciendis hic atque exercitationem obcaecati, dignissimos, quae harum magnam culpa soluta corrupti eos, distinctio
                 unde odit vitae minima! Iste cum sint amet officiis.
               </span>
@@ -31,7 +31,7 @@ export default function TimelineSec() {
             <div className="timeline-end mb-10">
               <time className="font-mono italic">2018</time>
               <div className="text-lg font-black">Patnered with Malaysia</div>
-              <span className="text-pretty align-text-top hidden md:inline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit excepturi ullam quaerat fuga animi? Nobis officiis excepturi ut.</span>
+              <span className=" align-text-top hidden md:inline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit excepturi ullam quaerat fuga animi? Nobis officiis excepturi ut.</span>
             </div>
             <hr className="bg-slate-50" />
           </li>
@@ -45,9 +45,7 @@ export default function TimelineSec() {
             <div className="timeline-start md:text-end mb-10 pb-10 md:pb-0 ">
               <time className="font-mono italic">2020</time>
               <div className="text-lg font-black">Realesed WEB3 Game Ip</div>
-              <span className="text-pretty align-text-top hidden md:inline">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident quasi voluptatum sit magnam tenetur necessitatibus quis voluptates modi repellendus nostrum!
-              </span>
+              <span className="align-text-top hidden md:inline">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident quasi voluptatum sit magnam tenetur necessitatibus quis voluptates modi repellendus nostrum!</span>
             </div>
             <hr className="bg-slate-50" />
           </li>
@@ -61,7 +59,7 @@ export default function TimelineSec() {
             <div className="timeline-end mb-10">
               <time className="font-mono italic">2023</time>
               <div className="text-lg font-black">Reach 500+ Clients</div>
-              <span className="text-pretty align-text-top hidden md:inline ">
+              <span className="align-text-top hidden md:inline ">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis assumenda illum perspiciatis omnis dolorum ipsa nihil, est perferendis. Veritatis eligendi ipsa in quos, dicta non esse, unde, perspiciatis incidunt quidem
                 dolores illo.
               </span>
@@ -78,7 +76,7 @@ export default function TimelineSec() {
             <div className="timeline-start md:text-end mb-10 pb-10 md:pb-0 ">
               <time className="font-mono italic">2025</time>
               <div className="text-lg font-black">Global No.1</div>
-              <span className="text-pretty align-text-top hidden md:inline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptatum temporibus quae in laboriosam iure.</span>
+              <span className=" align-text-top hidden md:inline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptatum temporibus quae in laboriosam iure.</span>
             </div>
           </li>
         </ul>

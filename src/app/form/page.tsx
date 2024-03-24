@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function FormProduct() {
   return (
-    <div>
+    <div className=" bg-gradient-to-b from-slate-900 to-teal-950">
       <section className="max-w-md  mx-auto pt-14 mb-5 text-start">
         <h1 className="text-2xl sm:text-3xl text-slate-50 font-semibold mt-5 pb-3">Game Development Outsourcing & Gamification Request Form</h1>
         <p className="text-grey-500">Please fill out the form below so we can address your inquiries better.</p>
