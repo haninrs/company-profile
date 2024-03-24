@@ -14,7 +14,7 @@ export default function TeamSection() {
   }, []);
 
   return (
-    <div className="bg-gradient-to-t from-slate-900 to text-teal-950 pt-7">
+    <div className="bg-gradient-to-t from-slate-900 to text-teal-950 px-12 pt-7">
       <div className="text-2xl font-bold text-center text-slate-50 py-7 px-10">OUR TEAM</div>
       <div className="flex flex-col sm:flex-row flex-wrap  gap-3 justify-center items-center">
         {data.map((user: any, idx) => (
